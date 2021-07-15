@@ -2,6 +2,8 @@ package traversals;
 
 import tree.BTree;
 
+import java.util.ArrayDeque;
+import java.util.Queue;
 import java.util.Stack;
 
 public class NonRecursiveTraversals {
@@ -14,7 +16,7 @@ public class NonRecursiveTraversals {
                 root = root.left;
             } else {
                 root = s.pop();
-                System.out.println(root.data + ", ");
+                System.out.print(root.data + ", ");
                 root = root.right;
             }
         }
@@ -33,4 +35,25 @@ public class NonRecursiveTraversals {
             }
         }
     }
+    public void printLevelOrder(BTree root) {
+        if (root == null) {
+            return;
+        }
+        Queue<BTree> queue = new ArrayDeque<>();
+
+        queue.add(root);
+        while (!queue.isEmpty()) {
+            BTree temp = queue.poll();
+            System.out.print(temp.data + ", ");
+
+            if (temp.left != null) {
+                queue.add(temp.left);
+            }
+
+            if (temp.right != null) {
+                queue.add(temp.right);
+            }
+        }
+    }
+
 }
