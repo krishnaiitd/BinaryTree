@@ -5,13 +5,13 @@
   Introduction of Binary Tree
   <ul>
     <li> <a href="https://www.youtube.com/playlist?list=PLT3Dtn316L-cs0lbAryLZZTP15cvmOWCk" target="_blank"> Youtube playlist of all Binary tree </a></li>
-    <li><a href="https://youtu.be/kNjRuBZPtaE">A comprehensive explanation of non-recursive binary tree traversal in-order, pre-order, post-order, and level-order.       </a>
+    <li><a href="https://youtu.be/kNjRuBZPtaE" target="_blank">A comprehensive explanation of non-recursive binary tree traversal in-order, pre-order, post-order, and level-order.</a>
     </li>
   </ul>
 </li>
 
 <li>
-  <a href="#non-recursive-traversal">Non Recursive Binary Tree Traversal</a>
+  Non Recursive Binary Tree Traversal
   <ul>
     <li><a href="https://youtu.be/w0qwBRKNF20">In Order non recursive traversal</a></li>
     <li><a href="https://www.youtube.com/watch?v=HE_ANFf1Qbo">Pre Order non recursive traversal</a></li>
