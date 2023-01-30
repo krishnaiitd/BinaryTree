@@ -3,6 +3,17 @@ package probleams;
 import tree.BTree;
 
 public class CheckMirrorImage {
+
+    /**
+     * Tree root1 ->        1
+     *                  2       3
+     *
+     *  Mirror image of above Root
+     *      root2->         1
+     *                 3        2
+     *
+     *  So, after root level data validation, we should compare root1.left with root2.right && root1.right with root2.left
+     */
     public static boolean areMirrorImage(BTree root1, BTree root2) {
         if (root1 == null && root2 == null) {
             return true;
